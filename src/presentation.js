@@ -209,6 +209,19 @@ const Presentation = () => {
         <Link textColor="tertiary" href="https://kentcdodds.com/blog/useeffect-vs-uselayouteffect">
           https://kentcdodds.com/blog/useeffect-vs-uselayouteffect
         </Link>
+      </Slide>
+
+      {/* Links to slide & demo repositories. */}
+      <Slide transition={['zoom']}>
+        <Heading textColor="black">These Slides</Heading>
+        <Link style={{fontSize: '1.2em'}} textColor="tertiary" href="https://github.com/qodesmith/hooks-presentation">
+          https://github.com/qodesmith/hooks-presentation
+        </Link>
+
+        <Heading style={{marginTop: '4rem', color: 'black'}} fit>Demo Application</Heading>
+        <Link style={{fontSize: '1.2em'}} textColor="tertiary" href="https://github.com/qodesmith/hooks-demo">
+          https://github.com/qodesmith/hooks-demo
+        </Link>
 
         <Typeface googleFont="Great Vibes">
           <Text style={{fontSize: '2em', marginTop: '1em'}}>Fin</Text>
